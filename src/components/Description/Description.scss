@@ -1,0 +1,14 @@
+@import "../../assets/colors/variables.scss";
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  p {
+    border: 4px solid $border-color;
+    padding: 50px;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 1024px;
+  }
+}

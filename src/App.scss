@@ -1,6 +1,68 @@
 @import "./assets//colors/variables.scss";
 
-.App {
+body {
   margin: 0;
   background-color: $background-color;
+
+  .smallTopLeftborder {
+    width: 50px;
+    height: 50px;
+    background-color: $background-color;
+    border-right: 4px solid #e9dac1;
+    border-bottom: 4px solid #e9dac1;
+    border-bottom-right-radius: 100%;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+  }
+
+  .smallTopRightborder {
+    width: 50px;
+    height: 50px;
+    background-color: $background-color;
+    border-left: 4px solid #e9dac1;
+    border-bottom: 4px solid #e9dac1;
+    border-bottom-left-radius: 100%;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+  }
+
+  .smallBottomLeftborder {
+    width: 50px;
+    height: 50px;
+    background-color: $background-color;
+    border-right: 4px solid #e9dac1;
+    border-top: 4px solid #e9dac1;
+    border-top-right-radius: 100%;
+    position: absolute;
+    bottom: -4px;
+    left: -4px;
+  }
+
+  .smallBottomRightborder {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: $background-color;
+    border-left: 4px solid #e9dac1;
+    border-top: 4px solid #e9dac1;
+    border-top-left-radius: 100%;
+    bottom: -4px;
+    right: -4px;
+  }
+
+  .topRightDot {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: $border-color;
+    top: 25px;
+    right: 25px;
+    border-radius: 50%;
+  }
+
+  p h3 {
+    margin: 0;
+  }
 }
