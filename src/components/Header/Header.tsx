@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.scss";
 import Navigation from "../Navigation/Navigation";
+import ProfileImage from "../ProfileImage/ProfileImage";
 
 const Header = () => {
   return (
