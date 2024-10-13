@@ -8,8 +8,8 @@ body {
     width: 50px;
     height: 50px;
     background-color: $background-color;
-    border-right: 4px solid #e9dac1;
-    border-bottom: 4px solid #e9dac1;
+    border-right: 4px solid $border-color;
+    border-bottom: 4px solid $border-color;
     border-bottom-right-radius: 100%;
     position: absolute;
     top: -4px;
@@ -20,8 +20,8 @@ body {
     width: 50px;
     height: 50px;
     background-color: $background-color;
-    border-left: 4px solid #e9dac1;
-    border-bottom: 4px solid #e9dac1;
+    border-left: 4px solid $border-color;
+    border-bottom: 4px solid $border-color;
     border-bottom-left-radius: 100%;
     position: absolute;
     top: -4px;
@@ -32,8 +32,8 @@ body {
     width: 50px;
     height: 50px;
     background-color: $background-color;
-    border-right: 4px solid #e9dac1;
-    border-top: 4px solid #e9dac1;
+    border-right: 4px solid $border-color;
+    border-top: 4px solid $border-color;
     border-top-right-radius: 100%;
     position: absolute;
     bottom: -4px;
@@ -45,8 +45,56 @@ body {
     width: 50px;
     height: 50px;
     background-color: $background-color;
-    border-left: 4px solid #e9dac1;
-    border-top: 4px solid #e9dac1;
+    border-left: 4px solid $border-color;
+    border-top: 4px solid $border-color;
+    border-top-left-radius: 100%;
+    bottom: -4px;
+    right: -4px;
+  }
+
+  .bigTopLeftborder {
+    width: 75px;
+    height: 75px;
+    background-color: $background-color;
+    border-right: 4px solid $border-color;
+    border-bottom: 4px solid $border-color;
+    border-bottom-right-radius: 100%;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+  }
+
+  .bigTopRightborder {
+    width: 75px;
+    height: 75px;
+    background-color: $background-color;
+    border-left: 4px solid $border-color;
+    border-bottom: 4px solid $border-color;
+    border-bottom-left-radius: 100%;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+  }
+
+  .bigBottomLeftborder {
+    width: 75px;
+    height: 75px;
+    background-color: $background-color;
+    border-right: 4px solid $border-color;
+    border-top: 4px solid $border-color;
+    border-top-right-radius: 100%;
+    position: absolute;
+    bottom: -4px;
+    left: -4px;
+  }
+
+  .bigBottomRightborder {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: $background-color;
+    border-left: 4px solid $border-color;
+    border-top: 4px solid $border-color;
     border-top-left-radius: 100%;
     bottom: -4px;
     right: -4px;
