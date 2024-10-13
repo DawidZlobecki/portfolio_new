@@ -3,7 +3,7 @@ import "./Description.scss";
 
 const Description = () => {
   return (
-    <div className="description">
+    <section className="description">
       <div />
       <p>
         <div className="smallBottomRightborder" />
@@ -16,7 +16,7 @@ const Description = () => {
           one place. Enjoy!
         </span>
       </p>
-    </div>
+    </section>
   );
 };
 
