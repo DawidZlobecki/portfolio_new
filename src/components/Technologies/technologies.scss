@@ -1,27 +1,19 @@
 @import "../../assets//colors/variables.scss";
 
 .mainContainer {
-  margin-top: 100px;
-  max-width: 1080px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: $primary-color;
-  position: relative;
-  border: 4px solid $border-color;
-
   h2 {
     margin-top: 40px;
     text-align: center;
   }
 
-  .grid {
+  .technologiesGrid {
     display: grid;
     grid-template-columns: repeat(auto-fill, 250px);
     grid-gap: 75px;
     justify-content: center;
     padding: 75px 75px;
 
-    .gridElement {
+    .gridTechnologyElement {
       display: flex;
       flex-direction: column;
       justify-content: space-around;

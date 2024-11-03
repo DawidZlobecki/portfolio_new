@@ -1,13 +1,13 @@
 import React from "react";
 
-import "./technologies.scss";
+import "./Technologies.scss";
 
-interface item {
+interface technology {
   name: string;
   image: string;
 }
 
-const technologies: item[] = [
+const technologies: technology[] = [
   {
     name: "HTML",
     image: require("../../assets/img/technologies/html.png"),
@@ -66,16 +66,15 @@ const Technologies = () => {
       <div className="bigBottomLeftborder" />
       <div className="bigBottomRightborder" />
       <h2>Technologies that i know:</h2>
-      <div className="grid">
+      <div className="technologiesGrid">
         {technologies.map((item) => {
           return (
-            <div className="gridElement" key={item.name}>
-              <img src={item.image} />
+            <div className="gridTechnologyElement" key={item.name}>
+              <img src={item.image} alt={`${item.name} logo`} />
               <h4>{item.name}</h4>
             </div>
           );
         })}
-        {/* <div className="gridElement">Item</div> */}
       </div>
     </section>
   );
