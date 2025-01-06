@@ -22,7 +22,7 @@ const technologies: technology[] = [
   },
   {
     name: "Typescript",
-    image: require("../../assets/img/technologies/html.png"),
+    image: require("../../assets/img/technologies/typescript.png"),
   },
   {
     name: "Git",
@@ -38,7 +38,7 @@ const technologies: technology[] = [
   },
   {
     name: "React Native",
-    image: require("../../assets/img/technologies/html.png"),
+    image: require("../../assets/img/technologies/react.png"),
   },
   {
     name: "NodeJS",
@@ -54,7 +54,7 @@ const technologies: technology[] = [
   },
   {
     name: "Redux",
-    image: require("../../assets/img/technologies/html.png"),
+    image: require("../../assets/img/technologies/redux.png"),
   },
 ];
 
