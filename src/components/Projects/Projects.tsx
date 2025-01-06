@@ -17,7 +17,17 @@ const projects: project[] = [
   {
     name: "Battleship Game",
     image: require("../../assets/img/projects/battleship.png"),
-    link: "https://github.com/CodersCampLittleDevs/CodersCamp2021-ProjectWebDevelopmentBasics-Battleship-Game",
+    link: "",
+    additionalLinks: [
+      {
+        name: "Frontend",
+        link: "https://github.com/CodersCampLittleDevs/CodersCamp2021-ProjectWebDevelopmentBasics-Battleship-Game",
+      },
+      {
+        name: "Figma",
+        link: "https://www.figma.com/design/L3ST1JTUOGIZWQIoF0G0nR/Battleship?node-id=0-1&node-type=canvas",
+      },
+    ],
   },
   {
     name: "Pet's Adopt And Care - Frontend",
@@ -45,21 +55,17 @@ const projects: project[] = [
     link: "https://github.com/CodersCampCrew/Ukraine-helper?tab=readme-ov-file",
   },
   {
-    name: "Plantly",
-    image: require("../../assets/img/projects/teacherAssistant.png"),
+    name: "Leafly",
+    image: require("../../assets/img/projects/plantly.png"),
     link: "",
     additionalLinks: [
       {
-        name: "Frontend",
-        link: "https://github.com/CodersCampCrew/Teacher-Assistant?tab=readme-ov-file",
+        name: "Project",
+        link: "https://github.com/DawidZlobecki/Leafly",
       },
       {
         name: "Figma",
-        link: "https://github.com/CodersCampCrew/Teacher-Assistant?tab=readme-ov-file",
-      },
-      {
-        name: "Backend",
-        link: "https://github.com/CodersCampCrew/Teacher-Assistant?tab=readme-ov-file",
+        link: "https://www.figma.com/design/tAoJqMt6QTtmvJmyF3xQ9b/Leaflly-(Copy)?node-id=351-439",
       },
     ],
   },
