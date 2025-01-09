@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio_new/static/css/main.cc9ba978.css",
+    "main.js": "/portfolio_new/static/js/main.3ab7ebe6.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio_new/static/js/453.1407b060.chunk.js",
+    "static/media/profile300.png": "/portfolio_new/static/media/profile300.d4b72b39c68d6dada92d.png",
+    "static/media/petsadoptandcare.png": "/portfolio_new/static/media/petsadoptandcare.8f96d98df2159e3d75dd.png",
+    "static/media/react.png": "/portfolio_new/static/media/react.c007de9b8802fe775a4c.png",
+    "static/media/mongo.png": "/portfolio_new/static/media/mongo.a273a017230d6a17028e.png",
+    "static/media/js.png": "/portfolio_new/static/media/js.5621a3b91667c2ed751e.png",
+    "static/media/battleship.png": "/portfolio_new/static/media/battleship.e9b7bfd9f2dd497ceb11.png",
+    "static/media/my-sql.png": "/portfolio_new/static/media/my-sql.4b261de60f8f2dbd2954.png",
+    "static/media/teacherAssistant.png": "/portfolio_new/static/media/teacherAssistant.9cd11d9154bda05c47ab.png",
+    "static/media/html.png": "/portfolio_new/static/media/html.0465fb883f54f7bf9483.png",
+    "static/media/css.png": "/portfolio_new/static/media/css.bfee46f93ee24ca313ee.png",
+    "static/media/node.png": "/portfolio_new/static/media/node.71c4888b26854b6eb7ff.png",
+    "static/media/git.png": "/portfolio_new/static/media/git.d4aa7d0fd423a4248001.png",
+    "static/media/figma.png": "/portfolio_new/static/media/figma.1bcf59104bb5e35bcc7f.png",
+    "index.html": "/portfolio_new/index.html",
+    "main.cc9ba978.css.map": "/portfolio_new/static/css/main.cc9ba978.css.map",
+    "main.3ab7ebe6.js.map": "/portfolio_new/static/js/main.3ab7ebe6.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio_new/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc9ba978.css",
+    "static/js/main.3ab7ebe6.js"
+  ]
+}
