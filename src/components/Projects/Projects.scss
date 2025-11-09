@@ -52,7 +52,21 @@
         position: absolute;
         opacity: 0;
         color: $black;
-        transition: opacity 200ms linear;
+        cursor: pointer;
+
+        &:active,
+        &:focus {
+          transform: scale(1.03);
+          outline: none;
+
+          img {
+            opacity: 0;
+          }
+
+          .centeredElement {
+            opacity: 1;
+          }
+        }
       }
 
       &:hover {
