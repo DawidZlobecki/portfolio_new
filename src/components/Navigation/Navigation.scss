@@ -5,9 +5,28 @@
   gap: 50px;
   flex-direction: row;
 
+  .iconContainer {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+  }
   .icon {
     width: 40px;
     height: 40px;
     color: $black;
+    position: relative;
+    z-index: 2;
+  }
+  .borderIcon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 44px;
+    height: 44px;
+    color: $border-color;
+    z-index: 1;
+    pointer-events: none;
   }
 }

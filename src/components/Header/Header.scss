@@ -10,10 +10,20 @@
   align-items: center;
   padding: 0 50px;
   justify-content: space-between;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    gap: 20px;
+    margin: 0px;
+  }
 
   .nameContainer {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
+    @media (max-width: 580px) {
+      flex-direction: column;
+    }
   }
 }

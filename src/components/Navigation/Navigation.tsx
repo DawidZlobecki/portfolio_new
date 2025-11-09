@@ -30,11 +30,15 @@ const Navigation = () => {
     <nav className="navigationContainer">
       {navigationLinks.map((item) => (
         <a
+          className="iconContainer"
           target="_blank"
           key={item.id}
           href={item.link}
           rel="noopener noreferrer"
         >
+          {React.cloneElement(item.element as React.ReactElement, {
+            className: "borderIcon",
+          })}
           {item.element}
         </a>
       ))}
